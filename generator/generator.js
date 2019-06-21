@@ -119,7 +119,7 @@ var loadItems = function(){
 		var itemType = $('<select>',{ //* entererGoogle, entererText, bgimg, resize, line, point, count
 			id:'type-'+i,
 			class:'type'
-		}).html('<option value="" selected> -- select an option -- </option>' +
+		}).html('<option value="" selected> -- select an option -- </option>' + //elements in drop down box
 			'<option value="bgimg">*Image Filename</option>' +
 			'<option value="resize">*Resize Factor</option>' +
 			'<option value="entererGoogle" disabled>Enterer ID (Google Sign-In) (coming soon)</option>' +
